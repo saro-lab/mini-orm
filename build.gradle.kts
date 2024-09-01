@@ -19,6 +19,25 @@ java {
 }
 
 dependencies {
+	// drivers
+	implementation("com.oracle.database.jdbc:ojdbc10:19.16.0.0")
+	implementation("com.oracle.database.jdbc:ojdbc8:21.7.0.0")
+	implementation("com.oracle.database.jdbc:ojdbc6:11.2.0.4")
+	implementation("com.mysql:mysql-connector-j:9.0.0")
+	implementation("org.postgresql:postgresql:42.7.4")
+	implementation("com.microsoft.sqlserver:mssql-jdbc:11.2.1.jre11")
+	implementation("com.ibm.db2:jcc:11.5.7.0")
+	implementation("org.mariadb.jdbc:mariadb-java-client:3.0.6")
+	implementation("com.sap.cloud.db.jdbc:ngdbc:2.14.7")
+	implementation("com.ibm.informix:jdbc:4.50.8")
+	implementation("org.firebirdsql.jdbc:jaybird:4.0.6.java11")
+	implementation("org.hsqldb:hsqldb:2.7.3")
+	implementation("com.h2database:h2:2.1.214")
+	implementation("org.apache.derby:derby:10.17.1.0")
+
+	// lib
+	implementation("me.saro:kit:0.2.0")
+
 	// test
 	testImplementation("org.junit.jupiter:junit-jupiter:5.10.2")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
