@@ -23,5 +23,17 @@ class Util {
             }
             return tmp.toString()
         }
+
+
+        @JvmStatic
+        fun aaaa() {
+
+
+
+            println("aaaa")
+        }
+
+
+
     }
 }
